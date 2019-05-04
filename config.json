@@ -11,11 +11,11 @@
         "train_image_folder":   "/home/minhnc-lab/WORKSPACES/AI/data/raccoon_dataset/images/",
         "train_annot_folder":   "/home/minhnc-lab/WORKSPACES/AI/data/raccoon_dataset/annotations/",
           
-        "train_times":          8,
+        "train_times":          10,
         "pretrained_weights":   "",
         "batch_size":           16,
         "learning_rate":        1e-4,
-        "nb_epochs":            1,
+        "nb_epochs":            50,
         "warmup_epochs":        3,
 
         "object_scale":         5.0 ,
