@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-
+# source: https://github.com/experiencor/keras-yolo2
 import argparse
 import os
 import numpy as np
@@ -16,6 +16,7 @@ argparser = argparse.ArgumentParser(
 argparser.add_argument(
     '-c',
     '--conf',
+    default='config.json',
     help='path to configuration file')
 
 def _main_(args):

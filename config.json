@@ -1,18 +1,18 @@
 {
     "model" : {
-        "backend":              "Full Yolo",
+        "backend":              "Tiny Yolo",
         "input_size":           416,
-        "anchors":              [0.57273, 0.677385, 1.87446, 2.06253, 3.33843, 5.47434, 7.88282, 3.52778, 9.77052, 9.16828],
+        "anchors":              [4.03,5.23, 5.60,9.47, 7.53,11.54, 9.92,8.75, 11.02,11.99],
         "max_box_per_image":    10,        
-        "labels":               ["kangaroo"]
+        "labels":               ["raccoon"]
     },
 
     "train": {
-        "train_image_folder":   "/home/andy/data/kangaroo/images/",
-        "train_annot_folder":   "/home/andy/data/kangaroo/annots/",     
+        "train_image_folder":   "/home/minhnc-lab/WORKSPACES/AI/data/raccoon_dataset/images/",
+        "train_annot_folder":   "/home/minhnc-lab/WORKSPACES/AI/data/raccoon_dataset/annotations/",
           
         "train_times":          8,
-        "pretrained_weights":   "full_yolo_kangaroo3.h5",
+        "pretrained_weights":   "",
         "batch_size":           16,
         "learning_rate":        1e-4,
         "nb_epochs":            1,
@@ -23,7 +23,7 @@
         "coord_scale":          1.0,
         "class_scale":          1.0,
 
-        "saved_weights_name":   "full_yolo_kangaroo.h5",
+        "saved_weights_name":   "tiny_yolo_raccoon.h5",
         "debug":                true
     },
 
