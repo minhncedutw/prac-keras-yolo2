@@ -1,3 +1,7 @@
 .idea/
 __pycache__/
 *.h5
+
+images/raccoon/
+log_dir/
+output/
